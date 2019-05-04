@@ -1,0 +1,223 @@
+body
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+}
+
+.header
+{
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0D1012;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.header-title
+{
+    flex: 1;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.box-actions
+{
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.box-actions-buttons
+{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.box-actions-message
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-dropdown
+{
+    color: white;
+    background-color: #0D1012;
+    border: none;
+}
+
+.btn-dropdown:hover
+{
+    background-color: #424242;
+}
+
+.body
+{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-col
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1px;
+}
+
+.box-col-title
+{
+    height: 70px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-col-body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 10;
+}
+
+.task-box
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    width: 400px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+.task-date
+{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 1px;
+}
+
+.task-description
+{
+    flex: 4;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 1px;
+}
+
+.task-actions
+{
+    min-height: 35px;
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.icon-check {
+    width: 35px;
+    height: auto;
+    background-color: black;
+    mask: url('../svg/check.svg') no-repeat 50% 50%;
+}
+
+.icon-checked {
+    width: 35px;
+    height: auto;
+    background-color: black;
+    mask: url('../svg/checked.svg') no-repeat 50% 50%;
+}
+
+.icon-delete {
+    width: 35px;
+    height: auto;
+    background-color: black;
+    mask: url('../svg/delete.svg') no-repeat 50% 50%;
+}
+
+.icon-edit {
+    width: 35px;
+    height: auto;
+    background-color: black;
+    mask: url('../svg/edit.svg') no-repeat 50% 50%;
+}
+
+.icon-check:hover{ 
+    cursor: pointer; 
+}
+
+.icon-checked:hover{ 
+    cursor: pointer; 
+}
+
+.icon-delete:hover{ 
+    cursor: pointer;
+}
+
+.icon-edit:hover{ 
+    cursor: pointer;
+}
+
+.icon-show {
+    margin-right: 25px;
+    width: 35px;
+    height: auto;
+    background-color: #AAAAAA;
+    mask: url('../svg/show.svg') no-repeat 50% 50%;
+}
+
+.icon-hidden {
+    margin-right: 25px;
+    width: 35px;
+    height: auto;
+    background-color: #AAAAAA;
+    mask: url('../svg/hidden.svg') no-repeat 50% 50%;
+}
+
+.icon-show:hover{ 
+    cursor: pointer;
+}
+
+.icon-hidden:hover{ 
+    cursor: pointer;
+}
